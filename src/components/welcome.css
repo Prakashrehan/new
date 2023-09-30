@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/* * {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.welcome {
+    height : 2000px;
+    width: 1800px;
+    /* background: linear-gradient(122.19deg, #343534 1.89%, #353636 113.56%);  */
+    background-color: black;
+    
+   
+    position: relative;
+    overflow: hidden;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .welcome > h1 {
+    font-family: "Changa One";
+    font-weight: large;
+    font-size: 100px;
+    left: 350px;
+    top: 90px;
+    position: absolute;
+    color: rgb(35, 248, 7);
+  }
+
+  .login-register-cointainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    left: 400px;
+    top: 230px;
+    background: #5c5454; 
+    border-radius: 10px;
+    
+  }
+
+  .login-register-cointainer  > input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 5px;
+    
+  }
+
+  .login-register-container > button {
+    padding: 5px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .create-account-button {
+    background: none;
+    margin-top: 10px;
+  }
+
+  .sign-in-register-button {
+    background: linear-gradient(122.19deg, #da2079 1.89%, #2a00d5 113.56%);
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Changa One";
+    font-weight: normal;
+    color: white;
+  }
+
+  .create-account-button {
+    background: none;
+    margin-top: 10px;
+  }
+
+  .nk {
+    position: absolute;
+    bottom: 1100px;
+    right: 800px;
+    transform: scale(1.0.5);
+  }
+
+  .a {
+      font-family: "Changa One";
+      font-weight: large;
+      font-size: 30px;
+      left: 470px;
+      top: 910px;
+      position: absolute;
+      color: rgb(69, 70, 68);
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+    
+  }
+
+  body {
+    background: #8758ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  
+ 
